@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entersapiens Holding</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('paneles-solares.jpg') center/cover no-repeat;
+            color: #dddfe0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100vh;
+        }
+
+        #container {
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            max-width: 400px;
+            margin-right: 50px;
+        }
+
+        #buttons {
+            display: flex;
+            flex-direction: column;
+        }
+
+        button {
+            background-color: #1b2749;
+            color: #dddfe0;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #59c256;
+        }
+
+        /* Puedes agregar más estilos según sea necesario */
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <img id="logo" src="https://github.com/DavidsonIngInf/logo-Entersapiens-Holding/blob/main/logo.png?raw=true" alt="Logo de Tu Empresa"/>
+    
+    <div id="buttons">
+        <button onclick="irAQuienesSomos()">¿Quiénes Somos?</button>
+        <button onclick="irAPortafolio()">Portafolio</button>
+        <button onclick="irATestimonios()">Testimonios</button>
+        <button onclick="irAContactanos()">Contáctanos</button>
+        <button onclick="irASuscribete()">Suscríbete</button>
+    </div>
+</div>
+
+<script>
+    function irAQuienesSomos() {
+        // Agrega la lógica para redirigir a la página de "Quiénes Somos"
+        alert('Ir a la página de Quiénes Somos');
+    }
+
+    function irAPortafolio() {
+        // Agrega la lógica para redirigir a la página de "Portafolio"
+        alert('Ir a la página de Portafolio');
+    }
+
+    function irATestimonios() {
+        // Agrega la lógica para redirigir a la página de "Testimonios"
+        alert('Ir a la página de Testimonios');
+    }
+
+    function irAContactanos() {
+        // Agrega la lógica para redirigir a la página de "Contáctanos"
+        alert('Ir a la página de Contáctanos');
+    }
+
+    function irASuscribete() {
+        // Agrega la lógica para redirigir a la página de "Suscríbete"
+        alert('Ir a la página de Suscríbete');
+    }
+</script>
+
+</body>
+</html>

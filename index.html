@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entersapiens Holding</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #0077cc;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #005288;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #0077cc;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005288;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <img src="https://github.com/DavidsonIngInf/logo-Entersapiens-Holding/blob/main/logo.png?raw=true" alt="Logo de Entersapiens Holding"/>
+    <br><br>
+
+    <button type="button" onclick="mostrarQuienesSomos()">¿Quiénes Somos?</button>
+    <br><br>
+
+    <button type="button" onclick="mostrarPortafolio()">Portafolio</button>
+    <br><br>
+
+    <button type="button" onclick="mostrarContacto()">Contáctanos</button>
+    <br><br>
+
+    <form action="/formulario" method="get">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" placeholder="Nombre"/><br><br>
+
+        <label for="apellido">Apellido</label>
+        <input id="apellido" name="apellido" placeholder="Apellido"/><br><br>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" placeholder="Email"/><br><br>
+
+        <input type="submit"/><br>
+    </form>
+</div>
+
+<script>
+    function mostrarQuienesSomos() {
+        alert('Información sobre Quiénes Somos');
+    }
+
+    function mostrarPortafolio() {
+        alert('Nuestro Portafolio');
+    }
+
+    function mostrarContacto() {
+        alert('Información de Contacto');
+    }
+</script>
+
+</body>
+</html>
